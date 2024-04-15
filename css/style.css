@@ -1,0 +1,58 @@
+.navbar-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(135, 206, 250, 0.692);
+}
+.navbar-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-menu li {
+    padding: 0 5px;
+    display: inline;
+}
+.navbar-menu li:hover {
+    cursor: pointer;
+}
+.navbar-menu li a {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+.navbar-menu li a:hover {
+   text-decoration: none;
+   color: lightsalmon;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.welcome-text {
+    color: tomato;
+}
+
+.card-header {
+    font-size: 20px;
+    background-color: rgba(255, 170, 136, 0.911);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #myNav {
+        position: fixed;
+        top: 105px;
+        right: 0;
+        width: auto; /* Adjust width as needed */
+        background-color: rgba(0, 0, 0, 0.89); /* Semi-transparent background */
+        padding: 20px;
+        z-index: 1000; /* Ensure it's above other content */
+    }
+  }
