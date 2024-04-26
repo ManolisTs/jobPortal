@@ -30,5 +30,3 @@ Sign in as a candidate or employer and explore the features of Ergasioulis A.E J
 This project was created by Tsiomis Emmanouil. Special thanks to Bootstrap for providing the framework for responsive design.
 
 Feel free to use, modify, and distribute the code for your own projects.
-
-Visit the website here: https://evasappartment.gr
